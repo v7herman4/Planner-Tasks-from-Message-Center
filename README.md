@@ -40,7 +40,8 @@ If there is an existing environment that contains the Center of Excellence toolk
 1. [Download the Excel files](https://github.com/v7herman4/License-Management-and-Charge-Back/blob/main/ExcelTemplates.zip) to be used for system templates to your local desktop.
 2. Run the "License Administration Application" Model-driven app.
 3. Click on the gear icon in the top right corner and click "Advanced Settings"
-4. ![](RackMultipart20231115-1-3gyw6u_html_b506396e4d3b5513.png)
+4. ![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/65f5fa80-d7f1-446a-89bb-7d257820b5a4)
+
 5. Click on Settings, Templates
 6. ![](RackMultipart20231115-1-3gyw6u_html_76b579449ba2281.png)
 7. Click on "Document Templates"
