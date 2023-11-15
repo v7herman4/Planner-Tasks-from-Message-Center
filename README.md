@@ -12,9 +12,11 @@ Additionally users can create buckets for each service and manually move message
 
 Since the service in question exists in the sync'ed message, a user can leverage Power Automate to automatically move those messages into their respective bucket on a nightly basis. In this GitHub repository a user can download the most recent release that contains a solution with a couple of Power Automate Flows built to move messages from the main bucket into their respective service buckets.
 
-Collaborators
-Matt Mueller, Microsoft
-Valter Herman, Microsoft
+**Collaborators**
+
+**Matt Mueller, Microsoft**
+
+**Valter Herman, Microsoft**
 
 ## Security Roles Required
 
