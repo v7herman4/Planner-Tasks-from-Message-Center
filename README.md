@@ -18,6 +18,8 @@ Since the service in question exists in the sync'ed message, a user can leverage
 
 **Valter Herman, Microsoft**
 
+**Terry Moore, Microsoft**
+
 ## Security Roles Required
 
 The user installing and configuring the Flow must have at least a Maker role in the Power Platform environment. Additionally the user authenticated for the Connection References must have at least the Office 365 Message Center Reader role.
