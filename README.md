@@ -12,6 +12,10 @@ Additionally users can create buckets for each service and manually move message
 
 Since the service in question exists in the sync'ed message, a user can leverage Power Automate to automatically move those messages into their respective bucket on a nightly basis. In this GitHub repository a user can download the most recent release that contains a solution with a couple of Power Automate Flows built to move messages from the main bucket into their respective service buckets.
 
+Collaborators
+Matt Mueller, Microsoft
+Valter Herman, Microsoft
+
 ## Security Roles Required
 
 The user installing and configuring the Flow must have at least a Maker role in the Power Platform environment. Additionally the user authenticated for the Connection References must have at least the Office 365 Message Center Reader role.
