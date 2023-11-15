@@ -55,7 +55,7 @@ In order to create separate buckets for each associated service, follow these in
 
 For a better visualization of tasks in Microsoft Planner, this automation will leverage labels to identify message categories. Edit the labels in the plan as shown below:
 
-![](RackMultipart20231115-1-eiuegc_html_36c76e3c187cb5a3.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/34bd7fb8-aa05-4cbe-aa8c-0de2269a57a0)
 
 ### Turn On Planner Syncing
 
@@ -69,11 +69,11 @@ Turn on Planner Syncing from the following instructions:
 
 In order to update the Power Automate flow for sorting, you must retrieve the bucket id for the _All Messages_ bucket. Run the Flow named _List Planner Buckets to get Bucket Id_ with the Group Id and Plan Id for the respective Plan.
 
-![](RackMultipart20231115-1-eiuegc_html_9b93b68006873c8d.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/66f5dad6-d365-4cde-8d23-5b3f9297a11c)
 
 Retrieve the id from the successful Flow run.
 
-![](RackMultipart20231115-1-eiuegc_html_163ac95f535a6798.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/bf9bc3fd-eb32-4ef8-9eb5-5eecc71c6fa1)
 
 ### Update the Power Automate Flow to Sort Messages
 
@@ -81,19 +81,19 @@ Edit the Flow _Move Tasks to Buckets V2_.
 
 Update the Group Id and Plan Id for the respective Microsoft Planner plan.
 
-![](RackMultipart20231115-1-eiuegc_html_1f4e09be3860dab8.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/d5adf19a-0517-42d4-bc54-3e754521580c)
 
 Update the Condition step with the bucket id from the previous step.
 
-![](RackMultipart20231115-1-eiuegc_html_c3dcfbe425bbaece.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/966d065e-4eba-4b36-8026-77468a8d91b7)
 
 Update the List Buckets step with respective Microsoft Planner plan.
 
-![](RackMultipart20231115-1-eiuegc_html_e82c5d3401d432fd.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/55b6908c-7b9f-475c-ae34-97a8e17bb0dc)
 
 Ensure the label colors satisfy your requirement for the respective message category.
 
-![](RackMultipart20231115-1-eiuegc_html_2bbb881840797d1e.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/d128894d-9c81-4c5f-8e2e-a5c19e986d20)
 
 Save and run the Flow.
 
@@ -101,4 +101,5 @@ Save and run the Flow.
 
 Below is an example of the end result of this setup.
 
-![](RackMultipart20231115-1-eiuegc_html_58c02f9030d953e4.png)
+![image](https://github.com/v7herman4/Planner-Tasks-from-Message-Center/assets/89024016/5ed53e06-7501-4e2e-b2e8-e28c7ae1fc38)
+
